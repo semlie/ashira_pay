@@ -1,0 +1,96 @@
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/05/2014, 20:07:52
+    Author     : Admin
+*/
+.misg{ 
+display: block;
+padding: 9.5px;
+margin: 0 0 10px;
+font-size: 13px;
+line-height: 1.42857143;
+color: #333;
+word-break: break-all;
+word-wrap: break-word;
+background-color: #f5f5f5;
+border: 1px solid #ccc;
+border-radius: 4px;}
+
+.navbar-default  {
+	background-color: #a68296;
+	border-color: #feecec;
+}
+.navbar-default  .navbar-brand {
+	color: #434345;
+}
+.navbar-default  .navbar-brand:hover, .navbar-default  .navbar-brand:focus {
+	color: #cf006f;
+}
+.navbar-default  .navbar-text {
+	color: #434345;
+}
+.navbar-default  .navbar-nav > li > a {
+	color: #434345;
+}
+.navbar-default  .navbar-nav > li > a:hover, .navbar-default  .navbar-nav > li > a:focus {
+	color: #cf006f;
+}
+.navbar-default  .navbar-nav > .active > a, .navbar-default  .navbar-nav > .active > a:hover, .navbar-default  .navbar-nav > .active > a:focus {
+	color: #cf006f;
+	background-color: #feecec;
+}
+.navbar-default  .navbar-nav > .open > a, .navbar-default  .navbar-nav > .open > a:hover, .navbar-default  .navbar-nav > .open > a:focus {
+	color: #cf006f;
+	background-color: #feecec;
+}
+.navbar-default  .navbar-toggle {
+	border-color: #feecec;
+}
+.navbar-default  .navbar-toggle:hover, .navbar-default  .navbar-toggle:focus {
+	background-color: #feecec;
+}
+.navbar-default  .navbar-toggle .icon-bar {
+	background-color: #434345;
+}
+.navbar-default  .navbar-collapse,
+.navbar-default  .navbar-form {
+	border-color: #434345;
+}
+.navbar-default  .navbar-link {
+	color: #434345;
+}
+.navbar-default  .navbar-link:hover {
+	color: #cf006f;
+}
+
+@media (max-width: 767px) {
+	.navbar-default  .navbar-nav .open .dropdown-menu > li > a {
+		color: #434345;
+	}
+	.navbar-default  .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default  .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #cf006f;
+	}
+	.navbar-default  .navbar-nav .open .dropdown-menu > .active > a, .navbar-default  .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default  .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #cf006f;
+		background-color: #feecec;
+	}
+}
+.ng-invalid-maxlength, .ng-invalid ,.ng-invalid-required ,.ng-invalid-minlength{
+    border-color: #DF317E;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(167, 34, 55, 0.6);
+}
+.loading{
+    width: 40px;
+    height: 40px;
+    background-image: url('../img/loading.gif');
+    background-repeat: no-repeat;
+}
+.error{
+    background-color: red;
+    font-size: 10px;
+}

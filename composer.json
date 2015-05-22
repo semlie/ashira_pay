@@ -1,0 +1,14 @@
+{
+    "name": "vendor/ashira-paymant",
+    "description": "Description of project ashiraPaymant.",
+    "authors": [
+        {
+            "name": "israellieb",
+            "email": "israellieb@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "slim/slim": "dev-master"
+    }
+}
